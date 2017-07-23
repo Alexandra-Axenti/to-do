@@ -11,6 +11,9 @@ app.use(express.static('./public'));
 
 //fire controllers
 todoController(app);
+// app.get('/todo', function (req, res) {
+//   res.send('hello:)')
+// })
 
 //listen to port
 app.listen(3000);
